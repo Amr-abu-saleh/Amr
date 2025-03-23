@@ -28,7 +28,7 @@
             transition: left 0.5s ease, top 0.5s ease, transform 0.5s ease;
             border: 2px solid rgba(255, 255, 255, 0.3);
             width: 90%; /* Make the box responsive */
-            max-width: 400px; /* Limit maximum width */
+            max-width: 300px; /* Limit maximum width */
         }
         .box p {
             font-size: 24px;
@@ -81,13 +81,14 @@
         /* Mobile Styles */
         @media (max-width: 600px) {
             .box {
-                padding: 15px; /* Smaller padding for mobile */
+                padding: 10px; /* Smaller padding for mobile */
+                max-width: 250px; /* Smaller box width for mobile */
             }
             .box p {
-                font-size: 20px; /* Smaller font size for mobile */
+                font-size: 18px; /* Smaller font size for mobile */
             }
             .button {
-                padding: 10px 20px; /* Smaller buttons for mobile */
+                padding: 8px 16px; /* Smaller buttons for mobile */
                 font-size: 14px;
             }
         }
